@@ -140,3 +140,39 @@ Finally, user was able to access the HR folder:
 <br/>
 <br/>
 
+## Ticket 03: Account Lockout
+**Situation:** IT Agent came from lunch and by accident failed his password 3 times and his account got locked out.
+<img width="795" height="488" alt="Pasted image 20260507110826" src="https://github.com/user-attachments/assets/9e9b43ad-b883-461a-9eb0-0fa50fed4af9" />
+<br/>
+<img width="889" height="565" alt="Pasted image 20260507111014" src="https://github.com/user-attachments/assets/14dafa10-95dd-4dee-baf8-fdb566c5db06" />
+<br/>
+<br/>
+
+**Followed steps:**
+
+Unlocked the user's account and made him to change his password on the next login:
+<img width="691" height="556" alt="Pasted image 20260507111211" src="https://github.com/user-attachments/assets/6dcf638f-dde1-42ed-b63c-8817fde703b7" />
+<br/>
+<br/>
+
+Set up a generic temporal password for the user that they will need to change once log in:
+<img width="691" height="556" alt="Pasted image 20260507111316" src="https://github.com/user-attachments/assets/1ad0a77e-4273-4409-829c-b0794e5f4417" />
+<br/>
+<br/>
+
+Replying to the user:
+<img width="882" height="521" alt="Pasted image 20260507111653" src="https://github.com/user-attachments/assets/e773ef93-faed-4a18-a5d2-0f04f6f0e786" />
+<br/>
+<br/>
+
+
+User successfully changed the password and log into his workstation:
+<img width="946" height="683" alt="Pasted image 20260507112315" src="https://github.com/user-attachments/assets/149c8ebf-4c3d-425d-80bf-9348d9f099b6" />
+<br/>
+<br/>
+
+**Cause:** User typed the wrong password several times and the Group Policy of Account Lockout has a threshold of 3 times, if you fail that amount your account gets locked out.
+
+**Solution:** 
+- Unlocking the user account and resetting his password for a temporal one that he would need to change once logs in again.
+
