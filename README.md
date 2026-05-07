@@ -1,4 +1,4 @@
-# Ticketing-System-integration-with-AD-Enviroment
+# Enterprise Help Desk Lab with Active Directory
 
 ## Objective
 
@@ -143,6 +143,7 @@ Finally, I resolved the ticket:
 
 <br/>
 <br/>
+
 **Followed steps:**
 
 Searched the user on Active Directory Users and Computers:
@@ -161,7 +162,7 @@ Added the user to the right group and removed the old one:
 <br/>
 
 
-Answer the ticket:
+Answering the ticket:
 <img width="902" height="610" alt="Pasted image 20260506232001" src="https://github.com/user-attachments/assets/41d3606e-54ff-4f11-8c6a-8c2289247660" />
 <br/>
 <br/>
@@ -205,7 +206,7 @@ Replying to the user:
 <br/>
 
 
-User successfully changed the password and log into his workstation:
+User successfully changed the password and loged into his workstation:
 <img width="946" height="683" alt="Pasted image 20260507112315" src="https://github.com/user-attachments/assets/149c8ebf-4c3d-425d-80bf-9348d9f099b6" />
 <br/>
 <br/>
