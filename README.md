@@ -1,5 +1,44 @@
 # Ticketing-System-integration-with-AD-Enviroment
 
+## Objective
+
+The goal of this project was to build and manage a simulated enterprise IT support environment integrated with Active Directory services.
+
+This lab was designed to replicate real-world Help Desk and Systems Administration tasks by deploying a ticketing system (UVDesk) within a Windows Server domain environment and resolving common IT support incidents.
+
+The environment was built to strengthen practical IT support, system administration, and troubleshooting skills commonly used in enterprise environments.
+
+This was using a previously built infrastrucutre in other labs:
+
+- <b>Linux Virtualization Host Setup (QEMU-KVM)</b>
+  - [Linux Virtualization Host Setup](https://github.com/AllFullPower/Linux-Virtualization-Host-Setup-QEMU-KVM-)
+
+- <b>Enterprise Lab: Windows Server & AD DS Deployment</b>
+  - [Enterprise Lab: Windows Server & AD DS Deployment](https://github.com/AllFullPower/Enterprise-Lab-Windows-Server-AD-DS-Deployment)
+
+
+## Skills Learned
+
+- Active Directory user and group management
+- Password reset and account unlock procedures
+- DNS configuration and troubleshooting
+- DHCP scope management and lease troubleshooting
+- Linux server administration (Ubuntu Server)
+- Docker and Docker Compose deployment
+- Apache web server configuration
+- Help Desk ticket management workflows
+- Network troubleshooting and service validation
+- User permission and access control management
+- Enterprise IT documentation practices
+- Virtualized lab environment deployment
+
+## Tools Used
+
+- **Infrastructure & Virtualization**: Oracle VirtualBox / VMware, Ubuntu Server, Windows Server
+- **Directory Services & Networking**: Active Directory Domain Services (AD DS), DNS, DHCP
+- **Ticketing System & Web Services**: UVDesk, Apache2, Docker, Docker Compose
+- **Administration & Troubleshooting**: PowerShell, Windows Administrative Tools, Linux Terminal, Command Prompt, Event Viewer
+
 
 # Taken Steps
 Here's a quick review of how I installed the ticketing software on an Ubuntu Server. 
@@ -175,4 +214,9 @@ User successfully changed the password and log into his workstation:
 
 **Solution:** 
 - Unlocking the user account and resetting his password for a temporal one that he would need to change once logs in again.
+  
+<br/>
+<br/>
+<br/>
+<br/>
 
