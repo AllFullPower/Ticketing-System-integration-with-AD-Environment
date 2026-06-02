@@ -47,7 +47,7 @@ Here's a quick review of how I installed the ticketing software on an Ubuntu Ser
 
 Created another VM running Ubuntu Server that will get its IP through DHCP and it will  use our Windows Server machine as its default gateway.
 
-Finally, I shh the Ubuntu Server in order to install docker and the ticketing software (UVDesk):
+Finally, I SSH the Ubuntu Server in order to install docker and the ticketing software (UVDesk):
 
 <img width="910" height="560" alt="Pasted image 20260505211815" src="https://github.com/user-attachments/assets/59760f93-85e3-4683-a4dc-e521d3a85c10" />
 <br/>
@@ -114,9 +114,9 @@ I changed the address range to have 90 IP addresses more for workstations:
 
 **Solution:** 
 - Increased the DHCP Scope with 90 more IPs.
-- Send an email to the customer telling them to restart the computer.
+- SenT an email to the customer telling them to restart the computer.
 
-After contacting the Agent and told us she restarted the computer we confirmed it leased and IP address successfully. 
+After contacting the Agent, she restarted the computer, so we confirmed it leased an IP address successfully. 
 
 > Screenshot of the server to confirm the lease:
 
@@ -124,12 +124,12 @@ After contacting the Agent and told us she restarted the computer we confirmed i
 <br/>
 <br/>
 
-> Screenshot from the workstation, confirming it had internet access:
+> Screenshot of the workstation, confirming it had internet access:
 <img width="949" height="752" alt="Pasted image 20260506223155" src="https://github.com/user-attachments/assets/b2aba7e3-c7f9-428c-9bbd-f026c2eb2633" />
 <br/>
 <br/>
 
-Finally, I resolved the ticket:
+Finally, I solved the ticket:
 <img width="942" height="557" alt="Pasted image 20260506225655" src="https://github.com/user-attachments/assets/0d91f3f7-64e2-4a5d-a028-311345ee0f1b" />
 <br/>
 <br/>
@@ -156,7 +156,7 @@ When getting into the user properties I confirmed that she was not in the right 
 <br/>
 <br/>
 
-Added the user to the right group and removed the old one:
+Added the user to the right group and removed her from the old one:
 <img width="537" height="567" alt="Pasted image 20260506231306" src="https://github.com/user-attachments/assets/502b19f9-93f6-46f8-9f09-c796e5b6311d" />
 <br/>
 <br/>
@@ -167,15 +167,15 @@ Answering the ticket:
 <br/>
 <br/>
 
-Finally, user was able to access the HR folder:
+Finally, the user was able to access the HR folder:
 <img width="902" height="610" alt="Pasted image 20260506231930" src="https://github.com/user-attachments/assets/cd692b81-9c89-49e8-b8a6-476e96021fcf" />
 <br/>
 <br/>
 
-**Cause:** User got promoted from Customer Service Agent to the HR Department a few days ago, but the updated wasn't made on AD and they still on the Customer Service group and didn't have permissions to access the folder of HR.
+**Cause:** User got promoted from Customer Service Agent to the HR Department a few days ago, but the updated wasn't made on AD and they still on the Customer Service group and didn't have permissions to access the HR folder.
 
 **Solution:** 
-- Removed the Customer Service agents group on the user properties in AD and add them to HR Department group.
+- Removed the Customer Service agents group from the user properties on AD and add her to HR Department group.
 - Advised the customer to sign in again, otherwise the change won't take effect. 
 <br/>
 <br/>
@@ -190,7 +190,7 @@ Finally, user was able to access the HR folder:
 
 **Followed steps:**
 
-Unlocked the user's account and made him to change his password on the next login:
+Unlocked the user's account and made him changing his password on the next login:
 <img width="691" height="556" alt="Pasted image 20260507111211" src="https://github.com/user-attachments/assets/6dcf638f-dde1-42ed-b63c-8817fde703b7" />
 <br/>
 <br/>
