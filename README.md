@@ -217,7 +217,7 @@ User successfully changed the password and signed into his workstation:
 **Cause:** The account lockout policy was configured to trigger after three failed authentication attempts.
 
 **Solution:** 
-- Unlocking the user account, resetting the password, and assigning a temporal password that they must change on the next sing in.
+- Unlocking the user account, resetting the password, and assigning a temporal password that they must change on the next sign in.
   
 <br/>
 <br/>
